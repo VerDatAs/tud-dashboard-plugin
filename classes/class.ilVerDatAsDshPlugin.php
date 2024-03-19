@@ -97,5 +97,4 @@ class ilVerDatAsDshPlugin extends ilPageComponentPlugin
 
         return intval($refId);
     }
-
 }

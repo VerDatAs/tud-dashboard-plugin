@@ -26,8 +26,8 @@
  */
 class ilVerDatAsDshConfigGUI extends ilPluginConfigGUI
 {
-    protected ilVerDatAsDshPlugin $pl;
     private \ILIAS\DI\Container $dic;
+    protected ilVerDatAsDshPlugin $pl;
 
     /**
      * The constructor of ilVerDatAsDshConfigGUI that defines the container variable and retrieves the instance of the ilVerDatAsDshPlugin.
@@ -35,8 +35,8 @@ class ilVerDatAsDshConfigGUI extends ilPluginConfigGUI
     public function __construct()
     {
         global $DIC;
-        $this->pl = ilVerDatAsDshPlugin::getInstance();
         $this->dic = $DIC;
+        $this->pl = ilVerDatAsDshPlugin::getInstance();
     }
 
     /**

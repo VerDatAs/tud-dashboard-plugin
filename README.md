@@ -19,11 +19,11 @@ cd /var/www/html
 composer du
 ```
 
-Locate to `Administration | Extending ILIAS | Plugins` and install, configure and activate the `VerDatAsDsh`.
+Locate to `Administration | Extending ILIAS | Plugins` and install, configure and activate `VerDatAsDsh`.
 
 ## Configuration
 
-Define the following configurations:
+Define the following settings:
 
 * Backend URL (e.g., `https://tud-tas.example.com`)
 * LRS-Type (i.e., an LRS type created in `Administration | Extending ILIAS | LRS`)

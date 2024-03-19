@@ -1,4 +1,5 @@
 ##### Retrieved from https://gist.github.com/Yousha/a5514afd6cda8afba800f5af9f7115b4 #####
+##### Extended by general rule to exclude the .idea folder #####
 
 ##### Windows
 # Windows thumbnail cache files
@@ -289,6 +290,9 @@ nbdist/
 ##### JetBrains
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Do not include the .idea folder
+.idea
 
 # User-specific stuff
 .idea/**/workspace.xml

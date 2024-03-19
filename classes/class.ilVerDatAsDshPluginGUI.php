@@ -169,7 +169,7 @@ class ilVerDatAsDshPluginGUI extends ilPageComponentPluginGUI
             // Check, whether the user is a student (read only) or a lecturer (both read and write)
             $canViewOnly = $hasReadAccess && !$hasWriteAccess;
 
-            // BEGIN: Retrieve token (similar to the chatbot plugin)
+            // BEGIN: Retrieve token
             // Retrieve the settings of the plugin
             $settings = new ilSetting(ilVerDatAsDshPlugin::PLUGIN_ID);
             $lrsTypeId = $settings->get('lrs_type_id', 0);
@@ -230,7 +230,7 @@ class ilVerDatAsDshPluginGUI extends ilPageComponentPluginGUI
                     $_SESSION['userIdent'] = $ident;
                     $_SESSION['expireDate'] = $expireDate;
                 } catch (Exception $e) {
-                    file_put_contents('console.log', "An error occurred \n", FILE_APPEND);
+                    file_put_contents('console.log', $e->getMessage() . "\n", FILE_APPEND);
                 }
             } else {
                 // Reuse the existing token
