@@ -2,7 +2,7 @@
 
 /**
  * Dashboard ILIAS plugin for the assistance system developed as part of the VerDatAs project
- * Copyright (C) 2022-2024 TU Dresden (Tommy Kubica, Sebastian Heiden)
+ * Copyright (C) 2022-2024 TU Dresden (Sebastian Heiden, Tommy Kubica)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@
 /**
  * Class ilVerDatAsDshPluginGUI
  *
- * @author tud <tommy.kubica@tu-dresden.de, sebastian.heiden@tu-dresden.de>
+ * @author TU Dresden <sebastian.heiden1@mailbox.tu-dresden.de, tommy.kubica@tu-dresden.de>
  * @ilCtrl_isCalledBy ilVerDatAsDshPluginGUI: ilPCPluggedGUI
  */
 class ilVerDatAsDshPluginGUI extends ilPageComponentPluginGUI
@@ -363,8 +363,6 @@ class ilVerDatAsDshPluginGUI extends ilPageComponentPluginGUI
                     // Learning Module ILIAS
                     if ($subNode['type'] === 'lm') {
                         try {
-                            // Use code from Sebastian Heiden's extension of the REST plugin
-                            // https://github.com/spyfly/Ilias.RESTPlugin/blob/feature/sr-app-routes/RESTController/extensions/learning_module_v1/models/ILIASAppModel.php#L107
                             $learningModule = new \ilObjLearningModule($subNode['ref_id']);
                             $learningModuleObject = \ilObjectFactory::getInstanceByRefId($subNode['ref_id']);
                             $lcoModule['objectId'] = $this->getObjectPermaLink('lm', $subNode['ref_id'], $learningModule->getId());
@@ -693,9 +691,6 @@ class ilVerDatAsDshPluginGUI extends ilPageComponentPluginGUI
 
     /**
      * Retrieve the details of an ILIAS page (including the interactive tasks and documentation tools).
-     *
-     * Code retrieved from Sebastian Heiden:
-     * https://github.com/spyfly/Ilias.RESTPlugin/blob/af267b4cbb71d452889b5159fda9acd7c04b1e86/RESTController/extensions/learning_module_v1/models/ILIASAppModel.php#L142
      *
      * @param ilLMPage $pageObj
      * @param int      $learningModuleRefId

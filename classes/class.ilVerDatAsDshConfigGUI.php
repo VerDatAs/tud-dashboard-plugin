@@ -21,7 +21,7 @@
 /**
  * Class ilVerDatAsDshConfigGUI
  *
- * @author tud <tommy.kubica@tu-dresden.de>
+ * @author TU Dresden <tommy.kubica@tu-dresden.de>
  * @ilCtrl_IsCalledBy ilVerDatAsDshConfigGUI: ilObjComponentSettingsGUI
  */
 class ilVerDatAsDshConfigGUI extends ilPluginConfigGUI
