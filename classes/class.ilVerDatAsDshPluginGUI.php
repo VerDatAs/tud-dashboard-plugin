@@ -209,9 +209,9 @@ class ilVerDatAsDshPluginGUI extends ilPageComponentPluginGUI
             // Check, whether at least one session variable is not set
             // Note: As the session terminates on logout, it is not required to check the userIdent for a new logged-in user
             if (empty($_SESSION['userIdent']) || empty($_SESSION['jwt'])) {
-                // Prevent a crash, if the VerDatAs-Backend cannot be reached
+                // Prevent a crash, if the TAS-Backend cannot be reached
                 try {
-                    // Make a request to the VerDatAs-Backend to retrieve the user token, as we need the user ID
+                    // Make a request to the TAS-Backend to retrieve the user token, as we need the user ID
                     $verDatAsBackendRequest = new ilVerDatAsDshHttpRequest(
                         $backendURL
                     );
@@ -237,7 +237,7 @@ class ilVerDatAsDshPluginGUI extends ilPageComponentPluginGUI
                 $token = $_SESSION['jwt'];
             }
 
-            // Do not show the dashboard, when the VerDatAs-Backend cannot be accessed
+            // Do not show the dashboard, when the TAS-Backend cannot be accessed
             if (!($token ?? false)) {
                 return '';
             }

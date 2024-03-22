@@ -17,7 +17,7 @@
 //
 <!-- language file start -->
 configuration#:#Konfiguration
-backend_url#:#Backend URL
+backend_url#:#TAS-Backend URL
 missing_lrs_type#:#Bevor Sie mit der Konfiguration fortfahren, fügen Sie bitte einen LRS-Typ über das Untermenü "LRS" in "ILIAS erweitern" hinzu.
 lrs_type#:#LRS-Typ (definiert die Identifikation der Benutzer)
 true#:#Ja

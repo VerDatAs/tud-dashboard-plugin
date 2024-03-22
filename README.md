@@ -25,7 +25,7 @@ Locate to `Administration | Extending ILIAS | Plugins` and install, configure an
 
 Define the following settings:
 
-* Backend URL (e.g., `https://tud-tas.example.com`)
+* TAS-Backend URL (e.g., `https://tud-tas.example.com`)
 * LRS-Type (i.e., an LRS type created in `Administration | Extending ILIAS | LRS`)
 * Use vAPI (i.e., whether the vimotion API should be used to retrieve the course data [currently incomplete])
 * Hide from students (i.e., whether the dashboard should be hidden for students)
@@ -50,5 +50,5 @@ This plugin is licensed under the GPL v3 License (for further information, see [
 ## Libraries used by this plugin
 
 * Guzzle: an extensible PHP HTTP client – MIT license
-* VerDatAs-Dashboard: the frontend application of the dashboard for the assistance system – (extended) GPL v3 license – retrieve the code and license information here: [templates/main.js](templates/main.js)
+* [tud-dashboard](https://github.com/VerDatAs/tud-dashboard): the frontend application of the dashboard for the assistance system – (extended) GPL v3 license – retrieve the code and license information here: [templates/main.js](templates/main.js)
   * Please find the licenses of the third-party libraries used by the VerDatAs-Dashboard here: [templates/vendor.LICENSE.txt](templates/vendor.LICENSE.txt)
