@@ -38,11 +38,6 @@ Define the following settings:
 * Insert VerDatAsDsh
 * *Hint: Avoid copying VerDatAsDsh, as it can only be displayed once. Copying might crash your course.*
 
-## Development
-
-* If you use the ILIAS docker setup described [here](https://github.com/VerDatAs/all-ilias), which is located within the
-same folder such as `tud-dashboard-plugin`, you can run `sh local_development.sh` to reload your changes made.
-
 ## License
 
 This plugin is licensed under the GPL v3 License (for further information, see [LICENSE](LICENSE)).
