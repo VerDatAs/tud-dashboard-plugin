@@ -19,7 +19,7 @@
  */
 
 $id = "vdsh";
-$version = "0.2.4";
+$version = "0.2.5";
 $ilias_min_version = "8.0";
 $ilias_max_version = "8.999";
 $responsible = "TU Dresden";

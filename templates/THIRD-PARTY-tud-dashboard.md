@@ -79,6 +79,7 @@
 | pinia-plugin-persistedstate | 3.2.0 | MIT | https://github.com/prazdevs/pinia-plugin-persistedstate |
 | pinia | 2.1.6 | MIT | https://github.com/vuejs/pinia |
 | postcss | 8.4.27 | MIT | https://github.com/postcss/postcss |
+| postit-js-core | 1.1.0 | MIT | https://github.com/pinussilvestrus/postit-js |
 | preact | 10.16.0 | MIT | https://github.com/preactjs/preact |
 | proxy-from-env | 1.1.0 | MIT | https://github.com/Rob--W/proxy-from-env |
 | readdirp | 3.6.0 | MIT | https://github.com/paulmillr/readdirp |
