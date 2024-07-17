@@ -169,7 +169,7 @@ class ilVerDatAsDshConfigGUI extends ilPluginConfigGUI
     protected function readBackendURL(): string
     {
         $settings = new ilSetting(ilVerDatAsDshPlugin::PLUGIN_ID);
-        return $settings->get('backend_url');
+        return $settings->get('backend_url', '');
     }
 
     /**
