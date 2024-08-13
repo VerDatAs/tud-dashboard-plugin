@@ -76,7 +76,7 @@ This plugin is licensed under the GPL v3 License (for further information, see [
 | @vueuse/shared | 10.5.0 | MIT | https://github.com/vueuse/vueuse |
 | @vueuse/shared | 7.7.1 | MIT | https://github.com/vueuse/vueuse |
 | asynckit | 0.4.0 | MIT | https://github.com/alexindigo/asynckit |
-| axios | 1.4.0 | MIT | https://github.com/axios/axios |
+| axios | 1.7.4 | MIT | https://github.com/axios/axios |
 | clsx | 1.2.1 | MIT | https://github.com/lukeed/clsx |
 | combined-stream | 1.0.8 | MIT | https://github.com/felixge/node-combined-stream |
 | component-event | 0.2.1 | MIT | https://github.com/component/event |
@@ -88,7 +88,7 @@ This plugin is licensed under the GPL v3 License (for further information, see [
 | didi | 9.0.2 | MIT | https://github.com/nikku/didi |
 | domify | 1.4.1 | MIT | https://github.com/component/domify |
 | estree-walker | 2.0.2 | MIT | https://github.com/Rich-Harris/estree-walker |
-| follow-redirects | 1.15.2 | MIT | https://github.com/follow-redirects/follow-redirects |
+| follow-redirects | 1.15.6 | MIT | https://github.com/follow-redirects/follow-redirects |
 | form-data | 4.0.0 | MIT | https://github.com/form-data/form-data |
 | hammerjs | 2.0.8 | MIT | https://github.com/hammerjs/hammer.js |
 | he | 1.2.0 | MIT | https://github.com/mathiasbynens/he |
@@ -121,6 +121,7 @@ This plugin is licensed under the GPL v3 License (for further information, see [
 | vue-demi | 0.13.11 | MIT | https://github.com/antfu/vue-demi |
 | vue-demi | 0.14.5 | MIT | https://github.com/antfu/vue-demi |
 | vue-demi | 0.14.6 | MIT | https://github.com/antfu/vue-demi |
+| vue-json-pretty | 2.4.0 | MIT | https://github.com/leezng/vue-json-pretty |
 | vue-multiselect | 3.0.0-beta.2 | MIT | https://github.com/suadelabs/vue-multiselect |
 | vue-template-compiler | 2.7.14 | MIT | https://github.com/vuejs/vue |
 | vue | 3.3.4 | MIT | https://github.com/vuejs/core |
