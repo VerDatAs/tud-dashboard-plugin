@@ -45,9 +45,9 @@ This plugin is licensed under the GPL v3 License (for further information, see [
 ## Libraries used
 
 * Guzzle: an extensible PHP HTTP client – MIT license – https://github.com/guzzle/guzzle
-* [tud-dashboard](https://github.com/VerDatAs/tud-dashboard) (version [0.0.2](https://github.com/VerDatAs/tud-dashboard/releases/tag/0.0.2)): the frontend application of the dashboard for the assistance system – GPL v3 license
+* [tud-dashboard](https://github.com/VerDatAs/tud-dashboard) (version [0.0.3](https://github.com/VerDatAs/tud-dashboard/releases/tag/0.0.3)): the frontend application of the dashboard for the assistance system – GPL v3 license
   * Retrieve the code and license information here: [templates/main.js](templates/main.js)
-  * The following libraries are used by [tud-dashboard (version 0.0.2)](https://github.com/VerDatAs/tud-dashboard/releases/tag/0.0.2):
+  * The following libraries are used by [tud-dashboard (version 0.0.3)](https://github.com/VerDatAs/tud-dashboard/releases/tag/0.0.3):
 
 |    Name    |   Version  |   License  |     URL    |
 | ---------- | ---------- | ---------- | ---------- |
@@ -109,15 +109,15 @@ This plugin is licensed under the GPL v3 License (for further information, see [
 | nanoid | 3.3.7 | MIT | https://github.com/ai/nanoid |
 | object-refs | 0.4.0 | MIT | https://github.com/bpmn-io/object-refs |
 | path-intersection | 3.1.0 | MIT | https://github.com/bpmn-io/path-intersection |
-| picocolors | 1.0.1 | ISC | https://github.com/alexeyraspopov/picocolors |
+| picocolors | 1.1.0 | ISC | https://github.com/alexeyraspopov/picocolors |
 | pinia-plugin-persistedstate | 3.2.1 | MIT | https://github.com/prazdevs/pinia-plugin-persistedstate |
 | pinia | 2.2.1 | MIT | https://github.com/vuejs/pinia |
-| postcss | 8.4.41 | MIT | https://github.com/postcss/postcss |
+| postcss | 8.4.47 | MIT | https://github.com/postcss/postcss |
 | postit-js-core | 1.1.0 | MIT | https://github.com/pinussilvestrus/postit-js |
 | preact | 10.23.2 | MIT | https://github.com/preactjs/preact |
 | proxy-from-env | 1.1.0 | MIT | https://github.com/Rob--W/proxy-from-env |
 | saxen | 10.0.0 | MIT | https://github.com/nikku/saxen |
-| source-map-js | 1.2.0 | BSD-3-Clause | https://github.com/7rulnik/source-map-js |
+| source-map-js | 1.2.1 | BSD-3-Clause | https://github.com/7rulnik/source-map-js |
 | tiny-svg | 3.1.2 | MIT | https://github.com/bpmn-io/tiny-svg |
 | tiny-svg | 4.1.2 | MIT | https://github.com/bpmn-io/tiny-svg |
 | to-fast-properties | 2.0.0 | MIT | https://github.com/sindresorhus/to-fast-properties |
